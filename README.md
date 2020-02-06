@@ -13,4 +13,4 @@ sub_conf - subscriber configuration such as broker address, port and topic
 
 Usage
 - python pub.py --conf \path\of\pub_conf.json --data \path\of\data.json
-- python sub.py --conf sub_conf.json
+- python sub.py --conf \path\of\sub_conf.json
