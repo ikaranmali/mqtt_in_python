@@ -1,4 +1,4 @@
-# Paho-Mqtt without tls
+# Paho-MQTT
 Python Scripts for MQTT Publish and Subcribe
 # List of files
 - pub.py 
