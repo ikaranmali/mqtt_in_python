@@ -1,6 +1,6 @@
-# Pub-Sub Paho-Mqtt
+# Paho-Mqtt without tls
 Python Scripts for MQTT Publish and Subcribe
-List of files
+# List of files
 - pub.py 
 - data.json
 - pub_conf.json
