@@ -1,5 +1,8 @@
 {
-	"broker":"127.0.0.1",
-	"port":1883,
-	"topic":"test"
+"broker":"127.0.0.1",
+"port":1883,
+"topic":"test/sec",
+"time":1,
+"qos":1,
+"log":"log/mqtt_publisher"
 }
