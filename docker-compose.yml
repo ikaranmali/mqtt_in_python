@@ -1,0 +1,25 @@
+version: "3.3"
+services:
+    mqtt-publisher:
+        build: .
+        hostname: mqtt-publisher
+        container_name: mqtt-publisher
+        restart: unless-stopped
+        image: mqtt
+        command: python /app/pub.py --conf /app/pub_conf.json --data /app/data.json
+        tty: true
+        volumes:
+        - ./app:/app/
+        network_mode: host 
+
+    mqtt-subscriber:
+        build: .
+        hostname: mqtt-subscriber
+        container_name: mqtt-subscriber
+        restart: unless-stopped
+        image: mqtt
+        command: python /app/sub.py --conf /app/sub_conf.json 
+        tty: true
+        volumes:
+        - ./app:/app/
+        network_mode: host 
