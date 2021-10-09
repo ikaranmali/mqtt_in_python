@@ -1,4 +1,4 @@
-# Paho-MQTT
+# MQTT in Python
 Python Scripts for MQTT Publish and Subcribe
 # List of files
 - pub.py 
